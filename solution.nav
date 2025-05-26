@@ -45,8 +45,13 @@
 \headcommand {\beamer@subsectionentry {0}{3}{2}{12}{Python–Flask 实现}}
 \headcommand {\slideentry {3}{2}{1}{12/12}{Python–Flask 实现}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
 \headcommand {\beamer@sectionpages {11}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\sectionentry {4}{总结}{13}{总结}{0}}
+\headcommand {\slideentry {4}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\beamer@sectionpages {13}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\gdef \inserttotalframenumber {12}}
