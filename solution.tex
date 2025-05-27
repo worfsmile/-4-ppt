@@ -80,8 +80,17 @@
   \vspace{0.3cm}
   \begin{figure}
     \centering
-    \includegraphics[height=3cm]{fig/bookER.png}
-    \caption{图书 JSON 示例 \quad 图书 ER 图}
+    \begin{minipage}{0.3\textwidth}
+      \centering
+      \includegraphics[height=2cm]{fig/bookJSON.png}
+      \caption{图书 JSON 示例}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+      \centering
+      \includegraphics[height=3cm]{fig/bookER.png}
+      \caption{图书 ER 图}
+    \end{minipage}
   \end{figure}
 \end{frame}
 
@@ -159,8 +168,15 @@
 \subsection{Python–Flask 实现}
 \begin{frame}{Python–Flask 实现}
   \begin{itemize}
+    \item \textbf{Flask 简介}：Flask 是 Python 编写的轻量级 Web 框架，基于 Werkzeug 工具箱和 Jinja2 模板引擎，适合快速开发 Web 应用。
+    \item \textbf{工作原理}：
+      \begin{itemize}
+        \item 浏览器向 Flask 服务器发送 HTTP 请求
+        \item Flask 根据 URL 路由分发请求，调用相应函数处理逻辑
+        \item 将数据传递给 HTML 模板渲染后返回给浏览器
+      \end{itemize}
     \item 使用 \texttt{Flask} 与 \texttt{sqlite3} 实现后端服务
-    \item 统一数据库连接 & 事务管理：\texttt{get\_db()}, \texttt{teardown\_appcontext}
+    \item 统一数据库连接 \& 事务管理：\texttt{get\_db()}, \texttt{teardown\_appcontext}
     \item 路由设计：
       \begin{itemize}
         \item \texttt{/books}：分页浏览

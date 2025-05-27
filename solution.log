@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  26 MAY 2025 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  27 MAY 2025 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,10 +949,10 @@ Overfull \hbox (115.02118pt too wide) detected at line 70
 [5
 
 ]
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:86: Misplaced alignment tab character &.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:95: Misplaced alignment tab character &.
 <recently read> &
                  
-l.86 \end{frame}
+l.95 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -961,16 +961,26 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-<fig/bookER.png, id=169, 704.6325pt x 463.7325pt>
+<fig/bookJSON.png, id=169, 652.68843pt x 236.38312pt>
+File: fig/bookJSON.png Graphic file (type png)
+<use fig/bookJSON.png>
+Package pdftex.def Info: fig/bookJSON.png  used on input line 95.
+(pdftex.def)             Requested size: 157.12646pt x 56.9055pt.
+
+Overfull \hbox (54.43684pt too wide) in paragraph at lines 95--95
+ [][] 
+ []
+
+<fig/bookER.png, id=171, 704.6325pt x 463.7325pt>
 File: fig/bookER.png Graphic file (type png)
 <use fig/bookER.png>
-Package pdftex.def Info: fig/bookER.png  used on input line 86.
+Package pdftex.def Info: fig/bookER.png  used on input line 95.
 (pdftex.def)             Requested size: 129.69911pt x 85.35826pt.
 
 
 [6
 
- <./fig/bookER.png>]
+ <./fig/bookJSON.png> <./fig/bookER.png>]
 
 [7
 
@@ -979,28 +989,28 @@ Package pdftex.def Info: fig/bookER.png  used on input line 86.
 [8
 
 ]
-<fig/book1.png, id=199, 551.05875pt x 426.09187pt>
+<fig/book1.png, id=201, 551.05875pt x 426.09187pt>
 File: fig/book1.png Graphic file (type png)
 <use fig/book1.png>
-Package pdftex.def Info: fig/book1.png  used on input line 127.
+Package pdftex.def Info: fig/book1.png  used on input line 136.
 (pdftex.def)             Requested size: 154.03183pt x 119.10335pt.
-<fig/book2.png, id=201, 583.42969pt x 395.22656pt>
+<fig/book2.png, id=203, 583.42969pt x 395.22656pt>
 File: fig/book2.png Graphic file (type png)
 <use fig/book2.png>
-Package pdftex.def Info: fig/book2.png  used on input line 127.
+Package pdftex.def Info: fig/book2.png  used on input line 136.
 (pdftex.def)             Requested size: 154.03183pt x 104.34254pt.
-<fig/book3.png, id=202, 636.87938pt x 580.41844pt>
+<fig/book3.png, id=204, 636.87938pt x 580.41844pt>
 File: fig/book3.png Graphic file (type png)
 <use fig/book3.png>
-Package pdftex.def Info: fig/book3.png  used on input line 127.
+Package pdftex.def Info: fig/book3.png  used on input line 136.
 (pdftex.def)             Requested size: 154.03183pt x 140.3749pt.
-<fig/book4.png, id=204, 668.4975pt x 270.25969pt>
+<fig/book4.png, id=206, 668.4975pt x 270.25969pt>
 File: fig/book4.png Graphic file (type png)
 <use fig/book4.png>
-Package pdftex.def Info: fig/book4.png  used on input line 127.
+Package pdftex.def Info: fig/book4.png  used on input line 136.
 (pdftex.def)             Requested size: 154.03183pt x 62.26976pt.
 
-Overfull \vbox (69.06694pt too high) detected at line 127
+Overfull \vbox (69.06694pt too high) detected at line 136
  []
 
 
@@ -1008,33 +1018,33 @@ Overfull \vbox (69.06694pt too high) detected at line 127
 [9
 
  <./fig/book1.png> <./fig/book2.png> <./fig/book3.png> <./fig/book4.png>]
-<fig/book5.png, id=217, 671.50874pt x 565.36218pt>
+<fig/book5.png, id=219, 671.50874pt x 565.36218pt>
 File: fig/book5.png Graphic file (type png)
 <use fig/book5.png>
-Package pdftex.def Info: fig/book5.png  used on input line 142.
+Package pdftex.def Info: fig/book5.png  used on input line 151.
 (pdftex.def)             Requested size: 154.03183pt x 129.67686pt.
-<fig/book6.png, id=218, 656.4525pt x 389.20406pt>
+<fig/book6.png, id=220, 656.4525pt x 389.20406pt>
 File: fig/book6.png Graphic file (type png)
 <use fig/book6.png>
-Package pdftex.def Info: fig/book6.png  used on input line 142.
+Package pdftex.def Info: fig/book6.png  used on input line 151.
 (pdftex.def)             Requested size: 154.03183pt x 91.32043pt.
 
 
 [10
 
  <./fig/book5.png> <./fig/book6.png>]
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1042,18 +1052,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1061,10 +1071,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1072,10 +1082,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \beamer@orig@text@ ... \displaystyle \f@size {#1}}
                                                   {\textdef@ \textstyle \f@s...
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1083,18 +1093,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1102,10 +1112,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1113,10 +1123,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \beamer@orig@text@ ...ize {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \sf@...
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1124,18 +1134,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1143,10 +1153,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1154,10 +1164,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \beamer@orig@text@ ...ize {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \ssf...
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1165,18 +1175,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1184,10 +1194,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1195,10 +1205,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \beamer@orig@text@ ...ize {\firstchoice@false #1}}
                                                   \check@mathfonts }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1206,10 +1216,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \beamer@orig@text@ ...false #1}}\check@mathfonts }
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1217,10 +1227,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 \text@ ...t in math text}}\beamer@orig@text@ {#1}}
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1228,18 +1238,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1247,10 +1257,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1258,18 +1268,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1277,10 +1287,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1288,10 +1298,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1299,18 +1309,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1318,10 +1328,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1329,10 +1339,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1340,18 +1350,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1359,10 +1369,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1370,10 +1380,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1381,18 +1391,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1400,20 +1410,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing { inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing { inserted.
 <to be read again> 
                    $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1421,20 +1431,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing { inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing { inserted.
 <to be read again> 
                    $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1442,20 +1452,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing { inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing { inserted.
 <to be read again> 
                    $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1463,10 +1473,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1474,10 +1484,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1485,24 +1495,24 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 157.
+LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 166.
 (c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
 File: c70zhfs.fd 2009/09/23 4.8.2
 )
-Package CJKpunct Info: use punctuation spaces for family 'zhfs' with punctstyle (quanjiao) on input line 157.
+Package CJKpunct Info: use punctuation spaces for family 'zhfs' with punctstyle (quanjiao) on input line 166.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Extra }, or forgotten $.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1511,30 +1521,30 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: LaTeX Error: There's no line here to end.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 \end{frame}
+l.166 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing $ inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing $ inserted.
 <inserted text> 
                 $
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1542,10 +1552,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:157: Missing } inserted.
+c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:166: Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{frame}
+l.166 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1558,19 +1568,6 @@ my insertion and my current dilemma will both disappear.
 [11
 
 ]
-c:/Users/86133/OneDrive/桌面/数据库/数据库第四次实验报告/数据库实验ppt/solution.tex:173: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.173 \end{frame}
-                 
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
 
 [12
 
@@ -1604,18 +1601,18 @@ Package rerunfilecheck Info: Checksums for `solution.out':
 (rerunfilecheck)             After:  098061A2352494105B2AA6C64DCEC2AB;1208.
  ) 
 Here is how much of TeX's memory you used:
- 26385 strings out of 473190
- 515823 string characters out of 5719980
- 856107 words of memory out of 5000000
- 48821 multiletter control sequences out of 15000+600000
- 607354 words of font info for 213 fonts, out of 8000000 for 9000
+ 26482 strings out of 473190
+ 517760 string characters out of 5719980
+ 862107 words of memory out of 5000000
+ 48897 multiletter control sequences out of 15000+600000
+ 610888 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,18n,137p,784b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on solution.pdf (13 pages, 1142487 bytes).
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on solution.pdf (13 pages, 1258206 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
+ 579 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
  39 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
