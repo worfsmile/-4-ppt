@@ -13,7 +13,7 @@
 
 % -------------- 文档信息 --------------
 \title{数据库大作业展示}
-\subtitle{百货商店-图书管理系统}
+\subtitle{商店系统-图书管理系统}
 \author{计试2201 梁佳伟 \and 计试2201 郑诗棪}
 \institute[西安交大]{西安交通大学}
 \date{2025年5月}
@@ -28,7 +28,17 @@
 
 % 目录
 \begin{frame}{目录}
-  \tableofcontents
+  \begin{itemize}
+    \item \extbf{设计思想}
+    \begin{itemize}
+      \item 整体设计思想
+      \item 百货商店概览
+      \item 图书管理系统
+    \end{itemize}
+    \item \textbf{系统展示}
+    \item \textbf{实现方案}
+    \item \textbf{总结}
+  \end{itemize}
 \end{frame}
 
 % 设计思想
@@ -37,9 +47,9 @@
 \subsection{整体设计思想}
 \begin{frame}{整体设计思想}
   \begin{itemize}
-    \item 构建百货商店管理后台，涵盖商品、库存、订单等功能
+    \item 构建百货商店管理后台，涵盖商品、部门、员工、制造商等功能
     \item 在此框架下，深入开发“图书管理系统”模块，面向用户呈现
-    \item 图书系统支持：\pause
+    \item 图书系统支持：
       \begin{itemize}
         \item 图书信息展示与分页浏览
         \item 多条件搜索（书名+作者）
@@ -55,17 +65,19 @@
     \column{0.6\textwidth}
       \begin{itemize}
         \item 商品管理：增删改查、分类管理
-        \item 库存监控：库存预警、批量入库
-        \item 订单流程：下单、发货、退货
-        \item 用户与权限：登录、角色分配、日志记录
+        \item 部门管理：录入部门、删除编辑部门、部门商品联系
+        \item 制造商管理：制造商商品联系、制造商信息记录
+        \item 员工管理：员工信息录入、员工和部门关系记录
       \end{itemize}
-    \column{0.8\textwidth}
-      % \begin{figure}
-      %   \centering
-      %   % ER 图示例
-      %   \includegraphics[width=0.9\textwidth]{fig/store_er.png}
-      %   \caption{百货商店 ER 图}
-      % \end{figure}
+  \end{columns}
+  \begin{columns}
+      \column{0.45\textwidth}
+      \begin{figure}
+        \centering
+        % ER 图示例
+        \includegraphics[width=0.9\textwidth]{fig/ER.png}
+        \caption{百货商店 ER 图}
+      \end{figure}
   \end{columns}
 \end{frame}
 
@@ -74,7 +86,7 @@
   \begin{itemize}
     \item 爬虫从豆瓣获取约3万条图书数据
     \item 存储字段：书名、作者、分类、价格、页数、评分、简介、详情链接
-    \item 用户可：搜索、浏览、查看详情、添加“购买需求”、查看&删除需求
+    \item 用户可：搜索、浏览、查看详情、添加“购买需求”、查看\&删除需求
     \item 支持分类统计与可视化展示
   \end{itemize}
   \vspace{0.3cm}
@@ -99,21 +111,24 @@
 
 \subsection{百货商店入口}
 \begin{frame}{百货商店入口}
-  % \begin{figure}
-  %   \centering
-  %   \includegraphics[width=0.7\textwidth]{fig/store_home.png}
-  %   \caption{百货商店后台首页}
-  % \end{figure}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{fig/store1.png}
+    \caption{百货商店后台首页}
+  \end{figure}
+  
 \end{frame}
 
 \subsection{百货商店部分功能}
 \begin{frame}{百货商店部分功能}
-  % \centering
-  % \includegraphics[width=0.45\textwidth]{fig/store_goods.png}
-  % \hspace{0.5cm}
-  % \includegraphics[width=0.45\textwidth]{fig/store_order.png}
-  % \vspace{0.3cm}
-  % \\textit{商品管理界面} \quad \textit{订单列表界面}
+  \centering
+  \includegraphics[width=0.45\textwidth]{fig/store4.png}
+  \hspace{0.5cm}
+  \includegraphics[width=0.45\textwidth]{fig/store3.png}
+  \includegraphics[width=0.45\textwidth]{fig/store5.png}
+  \hspace{0.5cm}
+  \includegraphics[width=0.45\textwidth]{fig/store6.png}
+  \vspace{0.3cm}
 \end{frame}
 
 % 图书管理系统前端
@@ -188,11 +203,42 @@
   \end{itemize}
 \end{frame}
 
+\subsection{Springboot+Vue实现}
+\begin{frame}{Springboot+Vue实现}
+\begin{itemize}
+    \item \textbf{前端技术栈：Vue 3}
+    \begin{itemize}
+        \item 使用最新的 Vue 3 框架
+        \item 采用 Composition API 风格
+        \item  使用 Vite 作为构建工具
+        \item Axios 用于处理 HTTP 请求,与后端 API 进行通信,处理数据交互
+        \item Element Plus 使用 Element Plus 作为 UI 组件库
+    \end{itemize}
+    \item \textbf{后端技术栈：Spring Boot}
+    \begin{itemize}
+        \item 基于 Spring Boot 框架
+        \item 提供 RESTful API
+        \item  自动配置和依赖管理
+    \end{itemize}
+\end{itemize}
+\end{frame}
 
 \section{总结}
 
 \begin{frame}{总结}
+  \begin{itemize}
+    \item 项目集成百货商店与图书管理两大模块，涵盖增删改查与可视化统计
+    \item 图书系统：3万条数据采集，支持分页浏览、搜索、详情跳转与购买需求管理
+    \item 前端：Vue3 + ECharts，交互友好；后端：Flask/SQLite 与 Spring Boot RESTful API 并行
+    \item 数据库设计合理，核心表关联清晰，事务管理与路由设计完善
+    \item 系统功能齐全、易用性好，可进一步优化用户认证与大数据性能
+  \end{itemize}
+\end{frame}
 
+\begin{frame}
+  \begin{center}
+    {\Huge \textbf{谢谢大家}}
+  \end{center}
 \end{frame}
 
 \end{document}
